@@ -3,5 +3,5 @@ function agir() {
     let sobrenome = document.getElementById("sobrenome").value
     let idade = document.getElementById("idade").value
 
-    document.getElementById("Resultado").innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
+    Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
 }
