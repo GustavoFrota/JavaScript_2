@@ -10,4 +10,5 @@ function agir() {
     }
 
     Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
+    Resultado.style.color = "green"
 }
