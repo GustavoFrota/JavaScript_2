@@ -3,7 +3,7 @@ function agir() {
     let sobrenome = document.getElementById("sobrenome").value
     let idade = document.getElementById("idade").value
 
-    if(nome === "" || sobrenome === "") {
+    if(nome === "" || sobrenome === "" || idade === "") {
         Resultado.innerHTML = "Preencha todos os campos"
         Resultado.style.color = "red"
         return false
