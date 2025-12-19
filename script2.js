@@ -3,5 +3,11 @@ function agir() {
     let sobrenome = document.getElementById("sobrenome").value
     let idade = document.getElementById("idade").value
 
+    if(nome === "" || sobrenome === "") {
+        Resultado.innerHTML = "Preencha todos os campos"
+        Resultado.style.color = "red"
+        return false
+    }
+
     Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
 }
