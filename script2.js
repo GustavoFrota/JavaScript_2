@@ -9,6 +9,12 @@ function agir() {
         return false
     }
 
+    if(idade < 18) {
+        Resultado.innerHTML = "Você precisa ter mais de 18 anos"
+        Resultado.style.color = "red"
+        return false
+    }
+
     Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
     Resultado.style.color = "green"
 }
