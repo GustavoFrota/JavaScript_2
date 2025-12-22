@@ -1,20 +1,7 @@
-function agir() {
-    let nome = document.getElementById("nome").value
-    let sobrenome = document.getElementById("sobrenome").value
-    let idade = document.getElementById("idade").value
-
-    if(nome === "" || sobrenome === "" || idade === "") {
-        Resultado.innerHTML = "Preencha todos os campos"
-        Resultado.style.color = "red"
-        return false
-    }
-
-    if(idade < 18) {
-        Resultado.innerHTML = "Você precisa ter mais de 18 anos"
-        Resultado.style.color = "red"
-        return false
-    }
-
-    Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
-    Resultado.style.color = "green"
+function somar() {
+    let N1 = Number(document.getElementById("N1").value)
+    let N2 =Number(document.getElementById("N2").value)
+    let N3 = N1 + N2
+    
+    document.getElementById("Resultado").innerHTML =`A soma entre ${N1} + ${N2} é ${N3}`
 }
