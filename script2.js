@@ -19,3 +19,14 @@ function agir() {
     Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
     Resultado.style.color = "green"
 }
+function carregar() {
+    let data = new Date()
+    let hora = data.getHours()
+    if(hora >=0 && hora < 12) {
+        document.body.style.backgroundColor = "#0b8bbaff";
+    } else if(hora >=12 && hora < 18) {
+        document.body.style.backgroundColor = "#c7c414ff";
+    } else {
+        document.body.style.backgroundColor = "#2C2C54"
+    }
+}
