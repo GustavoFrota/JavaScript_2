@@ -25,7 +25,7 @@ function carregar() {
     if(hora >=0 && hora < 12) {
         document.body.style.backgroundColor = "#0b8bbaff";
     } else if(hora >=12 && hora < 18) {
-        document.body.style.backgroundColor = "#c7c414ff";
+        document.body.style.backgroundColor = "#e6e30dff";
     } else {
         document.body.style.backgroundColor = "#2C2C54"
     }
