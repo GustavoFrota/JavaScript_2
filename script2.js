@@ -11,12 +11,12 @@ function agir() {
     }
 
     if(idade < 18) {
-        Resultado.innerHTML = "Você precisa ter mais de 18 anos"
+        Resultado.innerHTML = "Acesso negado. Você precisa ter pelo menos 18 anos."
         Resultado.style.color = "red"
         return false
     }
 
-    Resultado.innerHTML = `Olá, meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos.`
+    Resultado.innerHTML = "Acesso concedido."
     Resultado.style.color = "green"
 }
 function carregar() {
