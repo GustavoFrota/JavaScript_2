@@ -17,6 +17,12 @@ function agir() {
         return false
     }
 
+    if(cpf.length !== 11) {
+        Resultado.innerHTML = "CPF inválido"
+        Resultado.style.color = "red"
+        return false
+    }
+
     Resultado.innerHTML = "Acesso concedido."
     Resultado.style.color = "green"
 }
