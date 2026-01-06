@@ -3,8 +3,9 @@ function agir() {
     let sobrenome = document.getElementById("sobrenome").value
     let idade = document.getElementById("idade").value
     let email = document.getElementById("email").value
+    let cpf = document.getElementById("cpf").value
 
-    if(nome === "" || sobrenome === "" || idade === "" || email === "") {
+    if(nome === "" || sobrenome === "" || idade === "" || email === "" || cpf === "") {
         Resultado.innerHTML = "Preencha todos os campos"
         Resultado.style.color = "red"
         return false
