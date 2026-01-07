@@ -35,7 +35,7 @@ function carregar() {
     } else if(hora >=12 && hora < 18) {
         document.body.style.backgroundColor = "#e6e30dff";
     } else {
-        document.body.style.backgroundColor = "#2C2C54"
+        document.body.style.backgroundColor = "#0f0f22ff"
         document.getElementById("Nome-white").style.color = "white"
         document.getElementById("Sobrenome-white").style.color = "white"
         document.getElementById("Email-white").style.color = "white"
