@@ -29,11 +29,18 @@ function agir() {
 function carregar() {
     let data = new Date()
     let hora = data.getHours()
+    //let hora = 18
     if(hora >=0 && hora < 12) {
         document.body.style.backgroundColor = "#0b8bbaff";
     } else if(hora >=12 && hora < 18) {
         document.body.style.backgroundColor = "#e6e30dff";
     } else {
         document.body.style.backgroundColor = "#2C2C54"
+        document.getElementById("Nome-white").style.color = "white"
+        document.getElementById("Sobrenome-white").style.color = "white"
+        document.getElementById("Email-white").style.color = "white"
+        document.getElementById("Idade-white").style.color = "white"
+        document.getElementById("CPF-white").style.color = "white"
+        document.getElementById("Formulario-white").style.color = "white"
     }
 }
