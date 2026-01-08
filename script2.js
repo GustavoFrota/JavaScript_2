@@ -23,7 +23,7 @@ function agir() {
         return false
     }
 
-    Resultado.innerHTML = "Acesso concedido."
+    Resultado.innerHTML = `Bem-vindo(a) ${nome}`
     Resultado.style.color = "green"
 }
 function carregar() {
