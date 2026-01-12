@@ -30,12 +30,16 @@ function carregar() {
     let data = new Date()
     let hora = data.getHours()
     //let hora = 18
+    //let hora = 12
     if(hora >=0 && hora < 12) {
         document.body.style.backgroundColor = "#0b8bbaff";
+        document.getElementById("saudacao").innerHTML = "Bom-dia"
     } else if(hora >=12 && hora < 18) {
         document.body.style.backgroundColor = "#e6e30dff";
+        document.getElementById("saudacao").innerHTML = "Boa-tarde"
     } else {
         document.body.style.backgroundColor = "#0f0f22ff"
+        document.getElementById("saudacao").innerHTML = "Boa-noite"
         document.getElementById("Nome-white").style.color = "white"
         document.getElementById("Sobrenome-white").style.color = "white"
         document.getElementById("Email-white").style.color = "white"
