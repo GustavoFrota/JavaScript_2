@@ -29,10 +29,10 @@ function agir() {
 
     if(masculino) {
         genero_selecionado.innerHTML = "Seu gênero é masculino"
-        genero_selecionado.style.color = "green"
+        genero_selecionado.style.color = "blue"
     } else {
         genero_selecionado.innerHTML = "Seu gênero é feminino"
-        genero_selecionado.style.color = "green"
+        genero_selecionado.style.color = "pink"
     }
 }
 function carregar() {
