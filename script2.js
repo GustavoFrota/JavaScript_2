@@ -42,5 +42,6 @@ function carregar() {
         document.getElementById("Idade-white").style.color = "white"
         document.getElementById("CPF-white").style.color = "white"
         document.getElementById("Formulario-white").style.color = "white"
+        document.getElementById("p-white").style.color = "white"
     }
 }
