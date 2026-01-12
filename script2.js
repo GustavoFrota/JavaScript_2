@@ -40,6 +40,7 @@ function carregar() {
     } else {
         document.body.style.backgroundColor = "#0f0f22ff"
         document.getElementById("saudacao").innerHTML = "Boa-noite"
+        document.getElementById("saudacao").style.color = "white"
         document.getElementById("Nome-white").style.color = "white"
         document.getElementById("Sobrenome-white").style.color = "white"
         document.getElementById("Email-white").style.color = "white"
