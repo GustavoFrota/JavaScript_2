@@ -43,5 +43,6 @@ function carregar() {
         document.getElementById("CPF-white").style.color = "white"
         document.getElementById("Formulario-white").style.color = "white"
         document.getElementById("p-white").style.color = "white"
+        document.getElementById("label-white").style.color = "white"
     }
 }
