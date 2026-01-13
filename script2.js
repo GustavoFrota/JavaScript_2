@@ -65,5 +65,6 @@ function carregar() {
         document.getElementById("Formulario-white").style.color = "white"
         document.getElementById("p-white").style.color = "white"
         document.getElementById("label-white").style.color = "white"
+        document.getElementById("footer-white").style.color = "white"
     }
 }
