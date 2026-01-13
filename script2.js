@@ -5,6 +5,7 @@ function agir() {
     let email = document.getElementById("email").value
     let cpf = document.getElementById("cpf").value
     let masculino = document.getElementById("G-masculino").checked
+    let feminino = document.getElementById("G-feminino").checked
 
     if(nome === "" || sobrenome === "" || idade === "" || email === "" || cpf === "") {
         Resultado.innerHTML = "Preencha todos os campos"
@@ -30,9 +31,12 @@ function agir() {
     if(masculino) {
         genero_selecionado.innerHTML = "Seu gênero é masculino"
         genero_selecionado.style.color = "blue"
-    } else {
+    } else if(feminino) {
         genero_selecionado.innerHTML = "Seu gênero é feminino"
         genero_selecionado.style.color = "pink"
+    } else {
+        genero_selecionado.innerHTML = "Seu gênero é outro"
+        genero_selecionado.style.color = "white"
     }
 }
 function carregar() {
