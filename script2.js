@@ -25,16 +25,19 @@ function agir() {
         return false
     }
 
-    Resultado.innerHTML = `Bem-vindo(a) ${nome}`
-    Resultado.style.color = "green"
-
     if(masculino) {
+        Resultado.innerHTML = `Seja bem-vindo ${nome}`
+        Resultado.style.color = "green"
         genero_selecionado.innerHTML = "Seu gênero é masculino"
         genero_selecionado.style.color = "blue"
     } else if(feminino) {
+        Resultado.innerHTML = `Seja bem-vinda ${nome}`
+        Resultado.style.color = "green"
         genero_selecionado.innerHTML = "Seu gênero é feminino"
         genero_selecionado.style.color = "pink"
     } else {
+        Resultado.innerHTML = `Seja bem-vindo(a) ${nome}`
+        Resultado.style.color = "green"
         genero_selecionado.innerHTML = "Seu gênero é outro"
         genero_selecionado.style.color = "white"
     }
