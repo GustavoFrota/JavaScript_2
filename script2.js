@@ -69,9 +69,8 @@ function carregar() {
     }
 }
 function limparformulario() {
-    const form = document.querySelector('form')
-    form.reset()
+    document.getElementById('meufor').reset()
+    
     document.getElementById('Resultado').innerHTML = ' '
     document.getElementById('genero_selecionado').innerHTML = ' '
-    document.getElementById('saudacao').innerHTML = ' '
 }
