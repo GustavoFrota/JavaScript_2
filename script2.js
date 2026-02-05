@@ -71,7 +71,7 @@ function carregar() {
 function limparformulario() {
     const form = document.querySelector('form')
     form.reset()
-    document.getElementById('Resultado').innerHTML = ''
-    document.getElementById('genero_selecionando').innerHTML = ''
-    document.getElementById('saudacao').innerHTML = ''
+    document.getElementById('Resultado').innerHTML = ' '
+    document.getElementById('genero_selecionado').innerHTML = ' '
+    document.getElementById('saudacao').innerHTML = ' '
 }
