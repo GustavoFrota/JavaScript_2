@@ -68,3 +68,10 @@ function carregar() {
         document.getElementById("footer-white").style.color = "white"
     }
 }
+function limparformulario() {
+    const form = document.querySelector('form')
+    form.reset()
+    document.getElementById('Resultado').innerHTML = ''
+    document.getElementById('genero_selecionando').innerHTML = ''
+    document.getElementById('saudacao').innerHTML = ''
+}
