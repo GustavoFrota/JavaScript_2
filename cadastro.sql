@@ -9,3 +9,7 @@ create table pessoas (
     nacionalidade varchar(50) default 'Brasil',
     primary key(id)
 );
+insert into pessoas(nome, nascimento, sexo, peso, altura, nacionalidade) values
+('Gabriel', '2007-01-02', 'M', 78.5, 1.85, default);
+
+select * from pessoas
