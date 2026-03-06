@@ -56,16 +56,6 @@ function carregar() {
     } else {
         document.body.style.backgroundColor = "#0f0f22ff"
         document.getElementById("saudacao").innerHTML = "Boa-noite"
-        document.getElementById("saudacao").style.color = "white"
-        document.getElementById("Nome-white").style.color = "white"
-        document.getElementById("Sobrenome-white").style.color = "white"
-        document.getElementById("Email-white").style.color = "white"
-        document.getElementById("Idade-white").style.color = "white"
-        document.getElementById("CPF-white").style.color = "white"
-        document.getElementById("Formulario-white").style.color = "white"
-        document.getElementById("p-white").style.color = "white"
-        document.getElementById("label-white").style.color = "white"
-        document.getElementById("footer-white").style.color = "white"
     }
 }
 function limparformulario() {
