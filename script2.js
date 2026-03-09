@@ -19,7 +19,7 @@ function agir() {
         return false
     }
 
-    if(cpf.length !== 11) {
+    if(cpf.length !== 11) { 
         Resultado.innerHTML = "CPF inválido"
         Resultado.style.color = "red"
         return false
