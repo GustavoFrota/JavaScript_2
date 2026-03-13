@@ -51,10 +51,10 @@ function carregar() {
         document.body.style.background = 'linear-gradient(135deg, #287aa5, #28a259)'
         document.getElementById("saudacao").innerHTML = "Bom-dia"
     } else if(hora >=12 && hora < 18) {
-        document.body.style.backgroundColor = "#e6e30dff"
+        document.body.style.background = 'linear-gradient(135deg, #e5cf28, #e94f0d)'
         document.getElementById("saudacao").innerHTML = "Boa-tarde"
     } else {
-        document.body.style.backgroundColor = "#0f0f22ff"
+        document.body.style.background = 'linear-gradient(135deg, #1d0d51, #103794c8 )'
         document.getElementById("saudacao").innerHTML = "Boa-noite"
     }
 }
