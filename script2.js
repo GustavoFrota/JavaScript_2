@@ -48,7 +48,7 @@ function carregar() {
     //let hora = 18
     //let hora = 12
     if(hora >=0 && hora < 12) {
-        document.body.style.backgroundColor = "#0b8bbaff";
+        document.body.style.background = 'linear-gradient(135deg, #287aa5, #28a259)'
         document.getElementById("saudacao").innerHTML = "Bom-dia"
     } else if(hora >=12 && hora < 18) {
         document.body.style.backgroundColor = "#e6e30dff"
