@@ -14,6 +14,7 @@
 button:hover {
     background: blue;
     color: white;
+    transform: translateY(-2px);
 }
 
 body {
