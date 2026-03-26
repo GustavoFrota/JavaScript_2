@@ -38,3 +38,7 @@ button {
     width: 10vh;
     height: 30px;
 }
+
+.center p {
+    text-align: center;
+}
