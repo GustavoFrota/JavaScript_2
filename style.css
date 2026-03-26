@@ -28,6 +28,7 @@ body {
 
 .center input {
     border-radius: 30px;
+    height: 19px;
 }
 
 button {
