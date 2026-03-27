@@ -43,3 +43,7 @@ button {
 .center p {
     text-align: center;
 }
+
+.center span {
+    cursor: pointer;
+}
