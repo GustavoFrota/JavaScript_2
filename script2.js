@@ -7,8 +7,14 @@ function agir() {
     let masculino = document.getElementById("G-masculino").checked
     let feminino = document.getElementById("G-feminino").checked
 
-    if(nome === "" || sobrenome === "" || idade === "" || email === "" || cpf === "") {
-        Resultado.innerHTML = "Preencha todos os campos"
+    if(nome === "") {
+        Resultado.innerHTML = "O campo nome é obrigatório!"
+        Resultado.style.color = "red"
+        return false
+    }
+
+    if(sobrenome === "") {
+        Resultado.innerHTML = "O campo sobrenome é obrigatório!"
         Resultado.style.color = "red"
         return false
     }
