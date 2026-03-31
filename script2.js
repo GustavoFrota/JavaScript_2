@@ -65,6 +65,8 @@ function agir() {
         genero_selecionado.innerHTML = "Seu gênero é outro"
         genero_selecionado.style.color = "white"
     }
+
+    console.log("Criando usuário...")
 }
 function carregar() {
     let data = new Date()
