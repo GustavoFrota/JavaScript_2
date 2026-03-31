@@ -67,6 +67,11 @@ function agir() {
     }
 
     console.log("Criando usuário...")
+    console.log("Nome:", nome);
+    console.log("Sobrenome:", sobrenome);
+    console.log("Idade:", idade);
+    console.log("Email:", email);
+    console.log("CPF:", cpf);
 }
 function carregar() {
     let data = new Date()
