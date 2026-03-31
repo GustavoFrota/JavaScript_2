@@ -19,6 +19,24 @@ function agir() {
         return false
     }
 
+    if(email === "") {
+        Resultado.innerHTML = "O campo email é obrigatório!"
+        Resultado.style.color = "red"
+        return false
+    }
+
+    if(idade === "") {
+        Resultado.innerHTML = "O campo idade é obrigatório!"
+        Resultado.style.color = "red"
+        return false
+    }
+
+    if(cpf === "") {
+        Resultado.innerHTML = "O campo CPF é obrigatório!"
+        Resultado.style.color = "red"
+        return false
+    }
+
     if(idade < 18) {
         Resultado.innerHTML = "Acesso negado. Você precisa ter pelo menos 18 anos."
         Resultado.style.color = "red"
