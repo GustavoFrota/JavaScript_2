@@ -72,6 +72,7 @@ function agir() {
     console.log("Idade:", idade);
     console.log("Email:", email);
     console.log("CPF:", cpf);
+    console.log("Usuário criado");
 }
 function carregar() {
     let data = new Date()
