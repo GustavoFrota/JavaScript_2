@@ -8,61 +8,61 @@ function agir() {
     let feminino = document.getElementById("G-feminino").checked
 
     if(nome === "") {
-        Resultado.innerHTML = "O campo nome é obrigatório!"
+        Resultado.textContent = "O campo nome é obrigatório!"
         Resultado.style.color = "red"
         return false
     }
 
     if(sobrenome === "") {
-        Resultado.innerHTML = "O campo sobrenome é obrigatório!"
+        Resultado.textContent = "O campo sobrenome é obrigatório!"
         Resultado.style.color = "red"
         return false
     }
 
     if(email === "") {
-        Resultado.innerHTML = "O campo email é obrigatório!"
+        Resultado.textContent = "O campo email é obrigatório!"
         Resultado.style.color = "red"
         return false
     }
 
     if(idade === "") {
-        Resultado.innerHTML = "O campo idade é obrigatório!"
+        Resultado.textContent = "O campo idade é obrigatório!"
         Resultado.style.color = "red"
         return false
     }
 
     if(cpf === "") {
-        Resultado.innerHTML = "O campo CPF é obrigatório!"
+        Resultado.textContent = "O campo CPF é obrigatório!"
         Resultado.style.color = "red"
         return false
     }
 
     if(idade < 18) {
-        Resultado.innerHTML = "Acesso negado. Você precisa ter pelo menos 18 anos."
+        Resultado.textContent = "Acesso negado. Você precisa ter pelo menos 18 anos."
         Resultado.style.color = "red"
         return false
     }
 
     if(cpf.length !== 11) { 
-        Resultado.innerHTML = "CPF inválido"
+        Resultado.textContent = "CPF inválido"
         Resultado.style.color = "red"
         return false
     }
 
     if(masculino) {
-        Resultado.innerHTML = `Seja bem-vindo ${nome}`
+        Resultado.textContent = `Seja bem-vindo ${nome}`
         Resultado.style.color = "green"
-        genero_selecionado.innerHTML = "Seu gênero é masculino"
+        genero_selecionado.textContent = "Seu gênero é masculino"
         genero_selecionado.style.color = "blue"
     } else if(feminino) {
-        Resultado.innerHTML = `Seja bem-vinda ${nome}`
+        Resultado.textContent = `Seja bem-vinda ${nome}`
         Resultado.style.color = "green"
-        genero_selecionado.innerHTML = "Seu gênero é feminino"
+        genero_selecionado.textContent = "Seu gênero é feminino"
         genero_selecionado.style.color = "pink"
     } else {
-        Resultado.innerHTML = `Seja bem-vindo(a) ${nome}`
+        Resultado.textContent = `Seja bem-vindo(a) ${nome}`
         Resultado.style.color = "green"
-        genero_selecionado.innerHTML = "Seu gênero é outro"
+        genero_selecionado.textContent = "Seu gênero é outro"
         genero_selecionado.style.color = "white"
     }
 
@@ -81,18 +81,18 @@ function carregar() {
     //let hora = 12
     if(hora >=0 && hora < 12) {
         document.body.style.background = 'linear-gradient(135deg, #287aa5, #28a259)'
-        document.getElementById("saudacao").innerHTML = "Bom-dia"
+        document.getElementById("saudacao").textContent = "Bom-dia"
     } else if(hora >=12 && hora < 18) {
         document.body.style.background = 'linear-gradient(135deg, #e5cf28, #e94f0d)'
-        document.getElementById("saudacao").innerHTML = "Boa-tarde"
+        document.getElementById("saudacao").textContent = "Boa-tarde"
     } else {
         document.body.style.background = 'linear-gradient(135deg, #1d0d51, #103794c8 )'
-        document.getElementById("saudacao").innerHTML = "Boa-noite"
+        document.getElementById("saudacao").textContent = "Boa-noite"
     }
 }
 function limparformulario() {
     document.getElementById('meufor').reset()
     
-    document.getElementById('Resultado').innerHTML = ' '
-    document.getElementById('genero_selecionado').innerHTML = ' '
+    document.getElementById('Resultado').textContent = ' '
+    document.getElementById('genero_selecionado').textContent = ' '
 }
